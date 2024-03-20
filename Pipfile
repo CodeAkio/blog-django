@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 django = "*"
 black = "*"
+gunicorn = "*"
+psycopg = {extras = ["binary"], version = "*"}
+environs = {extras = ["django"], version = "*"}
+whitenoise = "*"
 
 [dev-packages]
 
